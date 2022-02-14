@@ -59,6 +59,19 @@ const gameScenes  = [
       },
     ]
   },
-  
+  {
+    id: 2.1,
+    text:'Cold hands reach out from the darkness dragging you deeper into the house, just before everything goes black you hear the faint sound of neighing.',
+    options: [
+      {
+        text: 'Struggle to get away',
+        nextText: 1.2
+      },
+      {
+        text: 'Give up. Coming here was a dumb idea to begin with.',
+        nextText: 1.2
+      }
+    ]
+  }
 ]
 console.log(gameScenes.options)
