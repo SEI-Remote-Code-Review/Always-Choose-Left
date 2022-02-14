@@ -27,7 +27,6 @@ function showGameScene(gameSceneIdx) {
   while (optBtn.firstChild) {
     optBtn.removeChild(optBtn.firstChild)
   }
-
   gameScene.options.forEach(option => {
     if (showOption(option)) {
       const button = document.createElement('button')
@@ -40,7 +39,7 @@ function showGameScene(gameSceneIdx) {
 }
 
 function showOption(option) {
-  return option.requiredInv == null || option.requiredState(inv)
+  return option.requiredInv == null || option.requiredInv(inv)
 }
 
 function selectOption(option) {

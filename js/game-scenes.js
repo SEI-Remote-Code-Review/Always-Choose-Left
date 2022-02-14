@@ -42,8 +42,23 @@ const gameScenes  = [
     text:'You walk through the door and it close all by itself behind you. You check the doorknob and it appears to be locked with no way to open it. It’s a musty room with coat hooks in front of you and a small desk to the left to your right and in front of you by the coat hooks you can see the darkened entrances to other rooms.',
     options:[
       {
-
-      }
+        text: 'Investigate the small desk.',
+        nextText: 3
+      },
+      {
+        text: 'Go through door by coat hooks.',
+        nextText: 2.1
+      },
+      {
+        text: 'Go through first door on the right.',
+        nextText: 2.1
+      },
+      {
+        text: 'Go through first door on the right.',
+        nextText: 2.1
+      },
     ]
-  }
+  },
+  
 ]
+console.log(gameScenes.options)
