@@ -1,7 +1,7 @@
 /*-------------------------------- Constants --------------------------------*/
 
 /*---------------------------- Variables (state) ----------------------------*/
-let state = {}
+let inventory = {}
 
 /*------------------------ Cached Element References ------------------------*/
 const text = document.getElementById('text')
@@ -13,5 +13,10 @@ const option = document.getElementById('option-button')
 init()
 
 function init(){
+  inventory = {}
+  showGameScene()
+}
 
+function showGameScene(){
+  
 }
