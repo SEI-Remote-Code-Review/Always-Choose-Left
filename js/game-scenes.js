@@ -43,6 +43,7 @@ const gameScenes  = [
     options:[
       {
         text: 'Investigate the small desk.',
+        addInv: { candleStick: true },
         nextText: 2.1
       },
       {
@@ -65,6 +66,7 @@ const gameScenes  = [
     options:[
       {
         text: 'Search Study',
+        requiredInv: (currentInv) => currentState.candleStick,
         nextText: 3
       },
       {
@@ -286,7 +288,7 @@ const gameScenes  = [
     options: [
       {
         text: 'Go back into the hallway.',
-        nextText: 8
+        nextText: 7.2
       },
       {
         text: 'Investigate the bed.',
@@ -294,6 +296,94 @@ const gameScenes  = [
       },
       {
         text: 'Investigate the table.',
+        nextText: 2.2
+      }
+    ]
+  },
+  {
+    id: 7.2,
+    text: 'You exit back in to the hallway at the other end of the hall is the stairway, to your right is the purple room, behind you is the green room, to you’re left is the last room connected to the hall.',
+    options: [
+      {
+        text: 'Go into the last room.',
+        nextText: 8
+      },
+      {
+        text: 'Go into the purple room.',
+        nextText: 2.2
+      },
+      {
+        text: 'Go into the green room.',
+        nextText: 2.2
+      },
+      {
+        text: 'Go down the stairs.',
+        nextText: 2.2
+      }
+    ]
+  },
+  {
+    id: 8,
+    text: 'You find yourself in a bedroom done all in shades of red. This is also the largest bedroom you’ve seen so far, to your right is a large four poster bed, in front of you is a red velvet chaise, to the left you see an old fashioned wardrobe, and behind you is the exit out to the hallway. ',
+    options: [
+      {
+        text: 'Go back into the hallway.',
+        nextText: 2.2
+      },
+      {
+        text: 'Investigate the bed.',
+        nextText: 2.2
+      },
+      {
+        text: 'Investigate the wardrobe.',
+        nextText: 8.1
+      },
+      {
+        text: 'Investigate the chaise.',
+        nextText: 2.2
+      }
+    ]
+  },
+  {
+    id: 8.1,
+    text: 'Inside of the old wardrobe you find several dress in various shades of red and various states of decay. One which is a darker shade than the others still has a tag in it. Embroidered onto the tag are the words, “Property of Samantha Scarlet.” You are now facing the wardrobe, the bed is behind you, the chaise is to your right, and the door to the hall is to your left.',
+    options: [
+      {
+        text: 'Go back into the hallway.',
+        nextText: 8.2d
+      },
+      {
+        text: 'Investigate the bed.',
+        nextText: 2.2
+      },
+      {
+        text: 'Investigate the wardrobe.',
+        nextText: 2.2
+      },
+      {
+        text: 'Investigate the chaise.',
+        nextText: 2.2
+      }
+    ]
+  },
+  {
+    id: 8.2,
+    text: 'You exit back out to the hallway. The red room is behind you, the green room is to your left the door to the purple room is across the hall in front of you, and the stairs are at the opposite end of the hall from the green room on your left. Didn’t you hear a sound up here somewhere? Oh well, it was probably just a squirrel.',
+    options: [
+      {
+        text:'Go into the green room.',
+        nextText: 2.2
+      },
+      {
+        text:'Go into the purple room.',
+        nextText: 2.2
+      },
+      {
+        text:'Go into the red room.',
+        nextText: 2.2
+      },
+      {
+        text:'Go down the stairs.',
         nextText: 2.2
       }
     ]
