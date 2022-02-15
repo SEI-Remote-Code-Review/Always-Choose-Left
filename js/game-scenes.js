@@ -171,7 +171,29 @@ const gameScenes  = [
       {
         text: 'Go back the way you came.',
         nextText: 2.2
-      },
+      }
     ]
   },
+  {
+    id: 5,
+    text: 'You bend over peering closer with the candle providing light, and find a neatly coiled bundle of rope. You continue up the stairs to the second floor. A hallway stretches out ahead of you with three doors: one is directly in front of you, one is on the right, and the final door is on the left.',
+    options: [
+      {
+        text: 'Go back downstairs.',
+        nextText: 2.2
+      },
+      {
+        text: 'Go in the door on the right.',
+        nextText: 2.2
+      },
+      {
+        text: 'Go in the door in front of you.',
+        nextText: 2.2
+      },
+      {
+        text: 'Go in the door on the left.',
+        nextText: 6
+      }
+    ]
+  }
 ]
