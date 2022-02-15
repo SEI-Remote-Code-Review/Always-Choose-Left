@@ -106,12 +106,16 @@ const gameScenes  = [
       {
         text: 'Go into the living room.',
         nextText: 2.2
+      },
+      {
+        text: 'Go back the way you came.',
+        nextText: 2.2
       }
     ]
   },
   {
     id: 3.1,
-    text:'After searching through the contents of the desk, you find it’s mostly rubbish. The one thing you find of interest is a revolver with the inscription “Property of Col. Malcolm Mustard” engraved on the barrel.',
+    text:'After searching through the contents of the desk, you find it’s mostly rubbish. The one thing you find of interest is a revolver with the inscription “Property of Col. Malcolm Mustard” engraved on the barrel. You are now facing door you came through, with the living room to your left.',
     options: [
       {
         text: 'Search bookshelves.',
@@ -120,6 +124,9 @@ const gameScenes  = [
       {
         text: 'Go into the living room.',
         nextText: 4
+      },
+      {text: 'Go back the way you came.',
+      nextText: 2.2
       }
     ]
   },
@@ -137,6 +144,10 @@ const gameScenes  = [
       },
       {
         text: 'Go into the living room.',
+        nextText: 2.2
+      },
+      {
+        text: 'Go back the way you came.',
         nextText: 2.2
       }
     ]
