@@ -284,7 +284,7 @@ const gameScenes  = [
   },
   {
     id: 7.1,
-    text: 'On the table you find many pieces of paper in various states of deterioration and a dagger with an inscription on the blade reading, “Property of Rev. Geoffrey Greene.” On one of the pieces of paper you can just make out the words, “I don’t think any of us are ever getting out of this cursed house. We’ve all been locked in here and on of us is a killer. I’m betting my stipend on Ophelia in the kitchen with the pipe.” You hear a noise from one of the other bedrooms, so you put your back to the wall with the door to your left, the bed to your right, and the table across the room in front of you.',
+    text: 'On the table you find many pieces of paper in various states of deterioration and a dagger with an inscription on the blade reading, “Property of Rev. Geoffrey Greene.” On one of the pieces of paper you can just make out the words, “I don’t think any of us are ever getting out of this cursed house. We’ve all been locked in here and one of us is a killer. I’m betting my stipend on Ophelia in the kitchen with the pipe.” You hear a noise from one of the other bedrooms, so you put your back to the wall with the door to your left, the bed to your right, and the table across the room in front of you.',
     options: [
       {
         text: 'Go back into the hallway.',
@@ -368,7 +368,7 @@ const gameScenes  = [
   },
   {
     id: 8.2,
-    text: 'You exit back out to the hallway. The red room is behind you, the green room is to your left the door to the purple room is across the hall in front of you, and the stairs are at the opposite end of the hall from the green room on your left. Didn’t you hear a sound up here somewhere? Oh well, it was probably just a squirrel.',
+    text: 'You exit back out to the hallway. The red room is behind you, the green room is to your right the door to the purple room is across the hall in front of you, and the stairs are at the opposite end of the hall from the green room on your left. Didn’t you hear a sound up here somewhere? Oh well, it was probably just a squirrel.',
     options: [
       {
         text:'Go into the green room.',
@@ -384,7 +384,7 @@ const gameScenes  = [
       },
       {
         text:'Go down the stairs.',
-        nextText: 2.2
+        nextText: 9
       }
     ]
   }
