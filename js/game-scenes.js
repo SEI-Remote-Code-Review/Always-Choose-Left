@@ -61,7 +61,7 @@ const gameScenes  = [
   },
   {
     id: 2.1,
-    text: 'Ontop of the small desk is a candlestick with a candle place in it. After a quick search through the drawers you have found a small book of matches. You turn slightly, observing what you can see through the doorways. To your left appears to be a small study directly in front of you are the doors to what seems to be a fair sized kitchen and living room.',
+    text: 'Ontop of the small desk is a candlestick with a candle placed in it. After a quick search through the drawers you have found a small book of matches. You turn slightly, observing what you can see through the doorways. To your left appears to be a small study directly in front of you are the doors to what seems to be a fair sized kitchen and living room.',
     options:[
       {
         text: 'Search Study',
