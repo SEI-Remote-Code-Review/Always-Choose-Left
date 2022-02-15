@@ -261,5 +261,41 @@ const gameScenes  = [
         nextText: 2.2
       }
     ]
+  },
+  {
+    id: 7,
+    text: 'You walk into another bedroom this one all decked out in green. In front of you is a bed, and to the left is a small writing table sitting beneath one of the boarded up windows.',
+    options: [
+      {
+        text: 'Go back into the hallway.',
+        nextText: 2.2
+      },
+      {
+        text: 'Investigate the bed.',
+        nextText: 2.2
+      },
+      {
+        text: 'Investigate the table.',
+        nextText: 7.1
+      }
+    ]
+  },
+  {
+    id: 7.1,
+    text: 'On the table you find many pieces of paper in various states of deterioration and a dagger with an inscription on the blade reading, “Property of Rev. Geoffrey Greene.” On one of the pieces of paper you can just make out the words, “I don’t think any of us are ever getting out of this cursed house. We’ve all been locked in here and on of us is a killer. I’m betting my stipend on Ophelia in the kitchen with the pipe.” You hear a noise from one of the other bedrooms, so you put your back to the wall with the door to your left, the bed to your right, and the table across the room in front of you.',
+    options: [
+      {
+        text: 'Go back into the hallway.',
+        nextText: 8
+      },
+      {
+        text: 'Investigate the bed.',
+        nextText: 2.2
+      },
+      {
+        text: 'Investigate the table.',
+        nextText: 2.2
+      }
+    ]
   }
 ]
