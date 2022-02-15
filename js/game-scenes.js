@@ -90,6 +90,55 @@ const gameScenes  = [
         nextText: 1.2
       }
     ]
+  },
+  {
+    id: 3,
+    text: 'As you walk into the study you see a writing desk with chair, and several bookshelves are the dominant furnishing in the room. You continue walking in until you’re standing with the desk to your left, in front of you is the door to the living room.',
+    options: [
+      {
+        text: 'Search desk.',
+        nextText: 3.1
+      },
+      {
+        text: 'Search bookshelves.',
+        nextText: 3.2
+      },
+      {
+        text: 'Go into the living room.',
+        nextText: 2.2
+      }
+    ]
+  },
+  {
+    id: 3.1,
+    text:'After searching through the contents of the desk, you find it’s mostly rubbish. The one thing you find of interest is a revolver with the inscription “Property of Col. Malcolm Mustard” engraved on the barrel.',
+    options: [
+      {
+        text: 'Search bookshelves.',
+        nextText: 3.2
+      },
+      {
+        text: 'Go into the living room.',
+        nextText: 4
+      }
+    ]
+  },
+  {
+    id: 3.2,
+    text: 'You find nothing of interest.',
+    options: [
+      {
+        text: 'Search desk.',
+        nextText: 3.1
+      },
+      {
+        text: 'Search bookshelves.',
+        nextText: 3.2
+      },
+      {
+        text: 'Go into the living room.',
+        nextText: 2.2
+      }
+    ]
   }
 ]
-console.log(gameScenes.options)

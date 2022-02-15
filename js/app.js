@@ -1,7 +1,7 @@
 /*-------------------------------- Constants --------------------------------*/
 
 /*-------------------------------- Variables --------------------------------*/
-let inv = {}
+// let inv = {}
 
 
 /*------------------------ Cached Element References ------------------------*/
@@ -39,7 +39,7 @@ function showGameScene(gameSceneIdx) {
 }
 
 function showOption(option) {
-  return option.requiredInv == null || option.requiredInv(inv)
+  return option.requiredInv !== null || option.requiredInv(inv)
 }
 
 function selectOption(option) {
