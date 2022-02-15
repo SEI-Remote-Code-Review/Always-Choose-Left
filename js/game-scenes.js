@@ -43,24 +43,42 @@ const gameScenes  = [
     options:[
       {
         text: 'Investigate the small desk.',
-        nextText: 3
+        nextText: 2.1
       },
       {
         text: 'Go through door by coat hooks.',
-        nextText: 2.1
+        nextText: 2.2
       },
       {
         text: 'Go through first door on the right.',
-        nextText: 2.1
+        nextText: 2.2
       },
       {
         text: 'Go through first door on the right.',
-        nextText: 2.1
+        nextText: 2.2
       },
     ]
   },
   {
     id: 2.1,
+    text: 'Ontop of the small desk is a candlestick with a candle place in it. After a quick search through the drawers you have found a small book of matches. You turn slightly, observing what you can see through the doorways. To your left appears to be a small study directly in front of you are the doors to what seems to be a fair sized kitchen and living room.',
+    options:[
+      {
+        text: 'Search Study',
+        nextText: 3
+      },
+      {
+        text: 'Search Living Room',
+        nextText: 2.2
+      },
+      {
+        text: 'Search Kitchen',
+        nextText: 2.2
+      }
+    ]
+  },
+  {
+    id: 2.2,
     text:'Cold hands reach out from the darkness dragging you deeper into the house, just before everything goes black you hear the faint sound of neighing.',
     options: [
       {
