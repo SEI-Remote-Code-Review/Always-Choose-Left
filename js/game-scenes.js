@@ -195,5 +195,71 @@ const gameScenes  = [
         nextText: 6
       }
     ]
+  },
+  {
+    id: 6,
+    text: 'After walking through the door you find yourself inside a bedroom decorated in an odd shade of purple. There is a bed directly in front of you covered in decades old bedding, to the right is a chest of drawers, and to the left is an old dresser with a wrench and a book on top of it.',
+    options: [
+      {
+        text: 'Go back the way you came.',
+        nextText: 2.2
+      },
+      {
+        text: 'Investigate the bed.',
+        nextText: 2.2
+      },
+      {
+        text: 'Investigate the chest of drawers.',
+        nextText: 2.2
+      },
+      {
+        text: 'Investigate the dresser.',
+        nextText: 6.1
+      }
+    ]
+  },
+  {
+    id: 6.1,
+    text: 'After a brief investigation the wrench seems to rusty to be of any use, but the book proves more interesting. On the cover it reads “Property of Prof. Peter Plum” and after turning a few pages you realize that the book is a journal. You go on to read about a murder that seems to have happened in this house years ago. You are now facing the dresser, the door to the hallway is to your left, the bed to your right, and the dresser is behind you.',
+    options: [
+      {
+        text: 'Go back into hallway.',
+        nextText: 6.2
+      },
+      {
+        text: 'Investigate the bed.',
+        nextText: 2.2
+      },
+      {
+        text: 'Investigate the chest of drawers.',
+        nextText: 2.2
+      },
+      {
+        text: 'Investigate the dresser.',
+        nextText: 6.1
+      }
+    ]
+  },
+  {
+    id: 6.2,
+    text: '',
+    options: [
+      {
+        text: 'Door on left.',
+        nextText: 7
+      },
+      {
+        text: 'Go back into the room.',
+        nextText: 2.2
+      },
+      {
+        text: 'Door in front of you.',
+        nextText: 2.2
+      },
+      {
+        text: 'Go down the stairs.',
+        nextText: 2.2
+      }
+    ]
   }
 ]
