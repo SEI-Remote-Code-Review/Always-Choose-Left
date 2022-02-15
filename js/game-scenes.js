@@ -242,7 +242,7 @@ const gameScenes  = [
   },
   {
     id: 6.2,
-    text: '',
+    text: 'You exit back in to the hallway to your left is the door at the end of the hall, the stairs are to your right, and there is another door right in front of you.',
     options: [
       {
         text: 'Door on left.',
