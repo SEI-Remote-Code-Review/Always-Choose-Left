@@ -350,7 +350,7 @@ const gameScenes  = [
     options: [
       {
         text: 'Go back into the hallway.',
-        nextText: 8.2d
+        nextText: 8.2
       },
       {
         text: 'Investigate the bed.',
