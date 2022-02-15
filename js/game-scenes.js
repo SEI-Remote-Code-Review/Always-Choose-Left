@@ -132,7 +132,7 @@ const gameScenes  = [
   },
   {
     id: 3.2,
-    text: 'You find nothing of interest.',
+    text: 'You find nothing of interest. The desk is still on your left.',
     options: [
       {
         text: 'Search desk.',
@@ -151,5 +151,27 @@ const gameScenes  = [
         nextText: 2.2
       }
     ]
-  }
+  },
+  {
+    id: 4,
+    text: 'You step though the doorway to the living room. As you look around you see the entrance to the kitchen and dining area to you right, in front of you is a moldy old living room set, and to your left is a set of stairs with something laying across the bottom step.',
+    options: [
+      {
+        text: 'Continue into the living room.',
+        nextText: 2.2
+      },
+      {
+        text: 'Go into the kitchen.',
+        nextText: 2.2
+      },
+      {
+        text: 'Investigate the stairs.',
+        nextText: 5
+      },
+      {
+        text: 'Go back the way you came.',
+        nextText: 2.2
+      },
+    ]
+  },
 ]
