@@ -43,7 +43,6 @@ const gameScenes  = [
     options:[
       {
         text: 'Investigate the small desk.',
-        addInv: { candleStick: true },
         nextText: 2.1
       },
       {
@@ -66,7 +65,6 @@ const gameScenes  = [
     options:[
       {
         text: 'Search Study',
-        requiredInv: (currentInv) => currentState.candleStick,
         nextText: 3
       },
       {
