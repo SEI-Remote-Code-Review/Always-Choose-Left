@@ -414,7 +414,17 @@ const gameScenes  = [
   },
   {
     id: 9.1,
-    text: 'You walk further into the living room looking carefully at the once tasteful furniture. Sticking out from between the cushions of the sofa is an envelope. Upon further inspection you see that a note is still inside and on the front is one word “Orchid.” You carefully take the note out and find it is still legible. It says, “We know it was you who murdered Dr. Black and locked us all in here. You’re crazy if you think you can take us out one by one. The game is over.” and it is signed simply “Henrietta Peacock.” The kitchen is now on your left, the stairs to your right and the doors leading to the study and foyer are facing you.',
+    text: 'You walk further into the living room looking carefully at the once tasteful furniture. Sticking out from between the cushions of the sofa is an envelope. Upon further inspection you see that a note is still inside and on the front is one word “Orchid.” ',
+    options: [
+      {
+        text: 'Continue',
+        nextText: 9.2
+      }
+    ]
+  },
+  {
+    id: 9.2,
+    text: 'You carefully take the note out and find it is still legible. It says, “We know it was you who murdered Dr. Black and locked us all in here. You’re crazy if you think you can take us out one by one. The game is over.” and it is signed simply “Henrietta Peacock.” The kitchen is now on your left, the stairs to your right and the doors leading to the study and foyer are facing you.',
     options: [
       {
         text: 'Investigate the kitchen.',
@@ -440,6 +450,52 @@ const gameScenes  = [
   },
   {
     id: 10,
-    text: 'In the dim light of your candle you almost don’t see it until you’re right on top of it... To be continued.'
+    text: 'In the dim light of your candle you almost don’t see it until you’re right on top of it. It’s a skeleton wearing once fine clothing. The cause of death is pretty obvious even in this advanced state of decay, your pretty sure it has something to do with the bullet hole in the skull.',
+    options: [
+      {
+        text: 'Continue.',
+        nextText: 10.1
+      }
+    ]
+  },
+  {
+    id: 10.1,
+    text: 'On the left side of the body you notice an old leather handbag. After a quick search you find a driver’s license identifying her as Dr. Lavender Orchid, and in the left most pocket of the handbag you find a key that looks like it will fit the front door. The way out is to your left.',
+    options: [
+      {
+        text: 'Leave while you can',
+        nextText: 11
+      },
+      {
+        text: 'Investigate the kitchen.',
+        nextText: 2.2
+      },
+      {
+        text: 'Investigate the living room.',
+        nextText: 2.2
+      },
+      {
+        text: 'Investigate the study.',
+        nextText: 2.2
+      },
+      {
+        text: 'Investigate the foyer.',
+        nextText: 2.2
+      },
+      {
+        text: 'Go back upstairs.',
+        nextText: 2.2
+      }
+    ]
+  },
+  {
+    id: 11,
+    text: 'CONGRATULATIONS!!! YOU WIN, YOU HAVE SUCCESSFULLY ESCAPED THE HOUSE!!!',
+    options: [
+      {
+        text: 'Replay!',
+        nextText: 1
+      }
+    ]
   }
 ]
