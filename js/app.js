@@ -2,16 +2,11 @@
 
 /*-------------------------------- Variables --------------------------------*/
 
-
-
 /*------------------------ Cached Element References ------------------------*/
 const textEl = document.getElementById('text')
 const optBtn = document.getElementById('option-buttons')
 
-
 /*----------------------------- Event Listeners -----------------------------*/
-
-
 
 /*-------------------------------- Functions --------------------------------*/
 init()
