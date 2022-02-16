@@ -50,15 +50,17 @@ body {
 }
 
 .btn {
-  background-color: #4a4a4a;
+  background-color: #343434;
   border: 1px solid #858585;
   border-radius: 5px;
   padding: 5px 10px;
-  color: #EAEAEA;
+  color: #fbfbfb;
   outline: none;
   font-size: 2rem;
 }
 
 .btn:hover {
-  border-color: black;
+  border-color: #000000;
+  background-color: #858585;
+  color: #000000;
 }
