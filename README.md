@@ -27,6 +27,7 @@
 - [ ] Add a splash screen
 - [ ] Add specific images for each scene
 - [ ] Add more rooms to the house
+- [ ] Add more gameover scenes
 - [ ] Dark Mode
 - [ ] Confetti!
 - [ ] Sound (possibly a spooky soundtrack)
