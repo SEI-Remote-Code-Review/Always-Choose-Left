@@ -7,12 +7,12 @@ html {
 *::before, /* All ::before pseudo-elements */
 *::after { /* All ::after pseudo-elements */
   /* height & width will now include border & padding by default
-     but can be over-ridden as needed */
+  but can be over-ridden as needed */
   box-sizing: inherit;
 }
 
 /* resets font size to be 62.5% of the user preference - 
-     in most browser configurations this will be 10px */
+in most browser configurations this will be 10px */
 :root {
   font-size: 62.5%;
 }
@@ -21,7 +21,7 @@ body {
   background-color: #808080;
   /* Use a system font, if none are available use an available sans-sarif font */
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-        Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   margin: 0;
   padding: 0;
   display: flex;
