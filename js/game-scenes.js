@@ -460,7 +460,7 @@ const gameScenes  = [
   },
   {
     id: 10.1,
-    text: 'On the left side of the body you notice an old leather handbag. After a quick search you find a driver’s license identifying her as Dr. Lavender Orchid, and in the left most pocket of the handbag you find a key that looks like it will fit the front door. The way out is to your left.',
+    text: 'On the left side of the body you notice an old leather handbag. After a quick search you find a driver’s license identifying her as Dr. Ophelia Orchid, and in the left most pocket of the handbag you find a key that looks like it will fit the front door. The way out is to your left.',
     options: [
       {
         text: 'Leave while you can',
